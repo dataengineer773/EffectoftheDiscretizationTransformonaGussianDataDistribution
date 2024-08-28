@@ -1,0 +1,3 @@
+The discretization transform is available in the scikit-learn Python machine learning library via KBinsDiscretizer class ,The strategy arguments controls the manner in which the input variable is divided as either
+'uniform','quantile','kmeans', The n_binsarguments controls the number of bins that will be created and must be set based on the choice of srategy, Next the KBinsDiscretizer is used to map the numerical values to
+ categorical values.We configure the transform the transform for create 10 categories(0 to 9), to output the result in ordinal format(integrs)and to divide the range of the input data uniformly.
